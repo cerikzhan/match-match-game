@@ -1,0 +1,21 @@
+button {
+  outline: none;
+  border: none;
+}
+
+.btn {
+  padding: 0.75rem 1rem;
+  margin-right: 1rem;
+  border-radius: 4px;
+  background-color: var(--btn-bg-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--bg-primary-color);
+  color: var(--white-color);
+}

@@ -1,0 +1,9 @@
+.form-body {
+  padding: 10px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}

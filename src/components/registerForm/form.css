@@ -1,0 +1,144 @@
+.register-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.register-form .form-group {
+  width: 60%;
+  flex-shrink: 0;
+}
+
+.register-form .form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 3.5rem;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 2rem 0.5rem 3.25rem;
+  background: #e9e9e9;
+  position: relative;
+  border-bottom: 2px solid #949494;
+}
+
+.register-form .form-control.correct {
+  border-bottom: 2px solid #219653;
+}
+
+.register-form .form-control.correct .correct {
+  visibility: visible;
+}
+
+.register-form .form-control.wrong {
+  border-bottom: 2px solid #eb5757;
+}
+
+.register-form .form-control.wrong .wrong {
+  visibility: visible;
+}
+
+.register-form .form-control.wrong .error-msg {
+  visibility: visible;
+  color: #eb5757;
+}
+
+.register-form label {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.register-form .input {
+  border: none;
+  background: #e9e9e9;
+  font-size: 1rem;
+}
+
+.register-form .input:focus {
+  outline: none;
+}
+
+.register-form .error-msg {
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  visibility: hidden;
+  font-size: 0.7rem;
+}
+
+.register-form .status-icon {
+  position: absolute;
+  right: 2%;
+  top: 25%;
+  visibility: hidden;
+}
+
+.register-form .avatar-container {
+  width: 30%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-form .avatar-wrapper {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.register-form .avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.register-form .btn-load {
+  padding: 0 1rem;
+  height: 2rem;
+  background-color: #e9e9e9;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.38);
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-form .btn-load:hover {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.register-form .btn-input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.register-form .form-footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 100%;
+  margin: 0 0 0 auto;
+  padding: 5px 10px;
+  border-top: 1px solid #eee;
+}
+
+.register-form .btn {
+  padding: 5px 10px;
+}
+
+.register-form .accept-btn {
+  margin-right: 10px;
+}

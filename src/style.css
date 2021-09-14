@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2196f3;
+  --bg-primary-color: #1e88e5;
+  --btn-bg-color: #f2f9fe;
+  --white-color: #ffffff;
+  --game-field-width: calc(100vh - 8rem);
+  --card-for-row: 4;
+}
+
+body {
+  font-family: 'Croissant One', 'Arial', cursive;
+}
+
+h2,
+h3 {
+  font-family: 'Federant', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
